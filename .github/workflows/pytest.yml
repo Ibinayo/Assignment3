@@ -18,8 +18,8 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pytest  # Installing pytest directly
+        pip install pytest  
 
     - name: Run tests
       run: |
-        pytest tests/  # Adjust the path if necessary
+        pytest tests/ 
