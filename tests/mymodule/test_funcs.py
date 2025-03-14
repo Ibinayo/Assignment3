@@ -21,7 +21,7 @@ def test_divide():
 
 @pytest.mark.difficult_operation
 def test_square_area():
-    assert square_area(8.49) == pytest.approx(72, rel=1e-2)  # my specific output based on my student ID (100939472)
+    assert square_area(8.9) == pytest.approx(72, rel=1e-2)  # my specific output based on my student ID (100939472)
     assert square_area(9) == 81  # modified test case that will pass
     assert square_area(72) == 5184  #  modified test case that will pass
     
